@@ -106,24 +106,3 @@ The following improvements were identified but not yet applied:
 | 2 | Remove the `resolutions` field (Yarn-only) — only `overrides` is needed for npm | `package.json` | `resolutions` is silently ignored by npm, making it dead and misleading config |
 | 3 | Add a `.gitignore` file with `node_modules/` at minimum | repo root | Without it, `node_modules/` can be accidentally committed |
 | 4 | Rename `package.json` `name` field from `nutrien_wiki` to match the actual repo | `package.json` | Leftover from a template — causes confusion if the package is ever published or referenced |
-
----
-
-## Candidate Requirements
-
-This repository is a test for QA candidates. Your task is to demonstrate your ability to fix broken automated tests using WebdriverIO (WDIO). Please ensure you:
-
-- Fix as many broken tests as possible.
-- Submit a pull request with your changes.
-- Attach proof or a screenshot showing that all tests pass in your PR.
-- Keep your code clean and well-commented.
-- Do not commit any sensitive information.
-
-Your submission will be reviewed based on:
-
-- The number of tests fixed.
-- Code quality and clarity.
-- Evidence of passing tests.
-- Any improvements or enhancements you make.
-
-Good luck!
