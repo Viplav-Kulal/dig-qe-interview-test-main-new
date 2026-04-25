@@ -53,6 +53,30 @@ npm run wdio-headless -- --cucumberOpts.tagExpression="@LOGIN"
 
 ---
 
+## Test Results
+
+All 6 spec files pass with **169 steps passing** across **37 scenarios**. Output from `npm run wdio-headless`:
+
+```
+[0-0] PASSED in chrome - features/basic_auth.feature
+[0-1] PASSED in chrome - features/checkboxes.feature
+[0-2] PASSED in chrome - features/dropdown.feature
+[0-4] PASSED in chrome - features/inputs.feature
+[0-5] PASSED in chrome - features/login.feature
+[0-3] PASSED in chrome - features/index.feature
+
+basic_auth   2 passing
+checkboxes   6 passing
+dropdown     8 passing
+inputs      15 passing
+login        6 passing
+index      132 passing
+
+Spec Files:  6 passed, 6 total (100% completed) in 00:00:59
+```
+
+---
+
 ## Fixes Made
 
 The following broken tests were identified and fixed:
