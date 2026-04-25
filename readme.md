@@ -128,5 +128,4 @@ The following improvements were identified but not yet applied:
 |---|------|--------|----------------|
 | 1 | Move `@cucumber/cucumber`, `@cucumber/gherkin`, and `@cucumber/messages` from `dependencies` to `devDependencies` | `package.json` | Test-only tooling should not be included in a production bundle |
 | 2 | Remove the `resolutions` field (Yarn-only) — only `overrides` is needed for npm | `package.json` | `resolutions` is silently ignored by npm, making it dead and misleading config |
-| 3 | Add a `.gitignore` file with `node_modules/` at minimum | repo root | Without it, `node_modules/` can be accidentally committed |
-| 4 | Rename `package.json` `name` field from `nutrien_wiki` to match the actual repo | `package.json` | Leftover from a template — causes confusion if the package is ever published or referenced |
+| 3 | Rename `package.json` `name` field from `nutrien_wiki` to match the actual repo | `package.json` | Leftover from a template — causes confusion if the package is ever published or referenced |
